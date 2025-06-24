@@ -10,3 +10,8 @@ __pycache__/
 build/
 
 imgui.ini
+
+.DS_Store
+*/.DS_Store
+.idea/*
+cmake-build-debug
