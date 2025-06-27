@@ -8,7 +8,9 @@ You can find the original paper and supplemental viewer on the [project webpage]
 
 ## Building the project
 
-We tested our implementation with the following configuration:
+CMake version 3.17 or higher and Ninja are required to build this project.
+
+Phillipe Weier and colleagues tested their implementation with the following configuration:
 
 Windows:
 - Visual Studio 17 2022
@@ -23,6 +25,10 @@ Linux:
 - Nvidia Driver 545.29
 - Clang++ 14.0
 - RTX 3080 / RTX 4090
+
+I tested my implementation with the following configurations:
+
+Linux:
 
 ### Cloning the repository
 
