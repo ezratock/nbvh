@@ -29,10 +29,10 @@ Linux:
 I tested my implementation with the following configurations:
 
 Linux:
-- CentOS 7.9.2009 (with X11 forwarding to XQuartz on macOS)
+- CentOS 7.9 (with X11 forwarding to XQuartz on macOS)
 - Cuda Compiler NVIDIA 12.9
 - Nvidia Driver 550.90
--
+- Clang++ 14.0
 - RTX 2080
 
 ### Cloning the repository

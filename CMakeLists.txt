@@ -21,6 +21,12 @@ set(CMAKE_CUDA_EXTENSIONS OFF)
 set(CUDA_LINK_LIBRARIES_KEYWORD PUBLIC)
 set(CMAKE_CUDA_RUNTIME_LIBRARY Shared)
 
+# If Clang, patch GLM_FUNC_DECL macro to avoid problematic [[nodiscard]] attributes
+if (CMAKE_CXX_COMPILER_ID STREQUAL "Clang")
+    message(STATUS "Detected Clang compiler. Patching GLM_FUNC_DECL.")
+    add_definitions(-DGLM_FUNC_DECL=GLM_CUDA_FUNC_DECL)
+endif()
+
 # ======== Tinyformat ======== #
 include_directories(ext/tinyformat)
 
