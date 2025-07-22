@@ -22,7 +22,7 @@ set(CUDA_LINK_LIBRARIES_KEYWORD PUBLIC)
 set(CMAKE_CUDA_RUNTIME_LIBRARY Shared)
 
 find_package(fmt REQUIRED PATHS "$ENV{HOME}/.local/lib64/cmake/fmt")
-target_link_libraries(ntwr PRIVATE fmt::fmt)
+#target_link_libraries(ntwr PRIVATE fmt::fmt)
 
 # Request realtime extensions for glfw
 add_compile_definitions(_POSIX_C_SOURCE=200809L)
