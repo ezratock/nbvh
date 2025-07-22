@@ -21,6 +21,9 @@ set(CMAKE_CUDA_EXTENSIONS OFF)
 set(CUDA_LINK_LIBRARIES_KEYWORD PUBLIC)
 set(CMAKE_CUDA_RUNTIME_LIBRARY Shared)
 
+# Request realtime extensions for glfw
+add_compile_definitions(_POSIX_C_SOURCE=200809L)
+
 # ======== Tinyformat ======== #
 include_directories(ext/tinyformat)
 
