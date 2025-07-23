@@ -6,7 +6,7 @@
 	url = https://github.com/madmann91/bvh.git
 [submodule "ext/tiny-cuda-nn"]
 	path = ext/tiny-cuda-nn
-	url = https://github.com/WeiPhil/tiny-cuda-nn.git
+	url = https://github.com/ezratock/tiny-cuda-nn.git
 [submodule "ext/tinygltf"]
 	path = ext/tinygltf
 	url = https://github.com/syoyo/tinygltf.git
