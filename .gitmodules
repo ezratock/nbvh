@@ -6,8 +6,7 @@
 	url = https://github.com/madmann91/bvh.git
 [submodule "ext/tiny-cuda-nn"]
 	path = ext/tiny-cuda-nn
-	url = https://github.com/ezratock/tiny-cuda-nn.git
-	branch = disable-internal-fmt
+	url = https://github.com/WeiPhil/tiny-cuda-nn.git
 [submodule "ext/tinygltf"]
 	path = ext/tinygltf
 	url = https://github.com/syoyo/tinygltf.git
@@ -20,5 +19,3 @@
 [submodule "ext/flip-cuda"]
 	path = ext/flip-cuda
 	url = https://github.com/WeiPhil/flip_cuda.git
-[submodule "ext/tiny-cuda.nn"]
-	branch = disable-internal-fmt

@@ -152,10 +152,6 @@ if(UNIX)
   include_directories(SYSTEM ${CUDA_INCLUDE_DIRS})
 endif()
 
-# prebuilt version of fmt because I was running into linking errors
-find_package(fmt REQUIRED PATHS "$ENV{HOME}/.local/lib64/cmake/fmt")
-target_link_libraries(ntwr PRIVATE fmt::fmt)
-
 # Precompile glm header which are often included
 target_precompile_headers(ntwr PRIVATE include/glm_pch.h)
  
