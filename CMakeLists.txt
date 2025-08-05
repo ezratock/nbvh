@@ -81,6 +81,7 @@ include_directories(${LIBBVH_INCLUDE_DIRS})
 
 # ====== GLM ======== 
 add_definitions(-DGLM_ENABLE_EXPERIMENTAL)
+set(GLM_ENABLE_CXX_20 ON CACHE BOOL "Enable C++20 in GLM")
 add_subdirectory(ext/glm) 
 
 # ====== FLIP ======== 
