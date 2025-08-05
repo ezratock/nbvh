@@ -19,4 +19,3 @@ cmake-build-debug
 build_log.txt
 prev_build_log.txt
 setup_build_log.txt
-first_working_build_log.txt
