@@ -16,6 +16,4 @@ imgui.ini
 .idea/*
 cmake-build-debug
 
-build_log.txt
-prev_build_log.txt
-setup_build_log.txt
+*build_log.txt
