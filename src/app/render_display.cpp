@@ -115,8 +115,12 @@ void RenderDisplay::initialisation()
 
     glfwSetErrorCallback(glfw_error_callback);
 
+    logger(LogLevel::Info, "Set error callback");
+
     if (!glfwInit())
         exit(EXIT_FAILURE);
+
+    logger(LogLevel::Info, "Initialized GLFW");
 
     std::string glsl_version = "#version 330 core";
     glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);

@@ -2,7 +2,6 @@
 	path = ext/glm
 	url = https://github.com/ezratock/glm.git
     branch = remove-nodiscard
-
 [submodule "ext/bvh"]
 	path = ext/bvh
 	url = https://github.com/madmann91/bvh.git
