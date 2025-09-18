@@ -29,11 +29,12 @@ Linux:
 I tested my implementation with the following configurations:
 
 Linux:
-- CentOS 7.9 (with X11 forwarding to XQuartz on macOS)
+- Rocky Linux 9.5
 - Cuda Compiler NVIDIA 12.9
-- Nvidia Driver 550.90
-- Clang++ 14.0
-- RTX 2080
+- Nvidia Driver 580.65.06
+- 
+- RTX 2080 / RTX 2080
+- Remote XFCE display with TurboVNC 3.1 VirtualGL 3.1.2
 
 ### Cloning the repository
 
